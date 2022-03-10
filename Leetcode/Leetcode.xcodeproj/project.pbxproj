@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCAE06C27D9EB9C00A77E05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAE06B27D9EB9C00A77E05 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDCAE02027D9E4D500A77E05 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDCAE02227D9E4D500A77E05 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCAE02527D9E4D500A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE02F27D9E56D00A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE03727D9E66400A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE03D27D9E6C400A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE04227D9E76200A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE04727D9E7B800A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE06327D9EAFD00A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE06927D9EB8700A77E05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDCAE06B27D9EB9C00A77E05 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCAE01F27D9E4D500A77E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCAE01927D9E4D500A77E05 = {
+			isa = PBXGroup;
+			children = (
+				EDCAE02427D9E4D500A77E05 /* Leetcode */,
+				EDCAE02327D9E4D500A77E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCAE02327D9E4D500A77E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE02227D9E4D500A77E05 /* Leetcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCAE02427D9E4D500A77E05 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE02C27D9E4EB00A77E05 /* Array */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		EDCAE02C27D9E4EB00A77E05 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE02D27D9E55A00A77E05 /* Remove Duplicates from Sorted Array */,
+				EDCAE02E27D9E56D00A77E05 /* Best Time to Buy and Sell Stock II */,
+				EDCAE03427D9E64A00A77E05 /* Rotate Array */,
+				EDCAE03827D9E68F00A77E05 /* Contains Duplicate */,
+				EDCAE03F27D9E74F00A77E05 /* Single Number */,
+				EDCAE04327D9E7B000A77E05 /* Intersection of Two Arrays II */,
+				EDCAE06027D9EAEC00A77E05 /* Plus One */,
+				EDCAE06427D9EB4D00A77E05 /* Move Zeroes */,
+				EDCAE06A27D9EB9C00A77E05 /* Two Sum */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		EDCAE02D27D9E55A00A77E05 /* Remove Duplicates from Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE02527D9E4D500A77E05 /* main.swift */,
+			);
+			path = "Remove Duplicates from Sorted Array";
+			sourceTree = "<group>";
+		};
+		EDCAE02E27D9E56D00A77E05 /* Best Time to Buy and Sell Stock II */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE02F27D9E56D00A77E05 /* main.swift */,
+			);
+			path = "Best Time to Buy and Sell Stock II";
+			sourceTree = "<group>";
+		};
+		EDCAE03427D9E64A00A77E05 /* Rotate Array */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE03727D9E66400A77E05 /* main.swift */,
+			);
+			path = "Rotate Array";
+			sourceTree = "<group>";
+		};
+		EDCAE03827D9E68F00A77E05 /* Contains Duplicate */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE03D27D9E6C400A77E05 /* main.swift */,
+			);
+			path = "Contains Duplicate";
+			sourceTree = "<group>";
+		};
+		EDCAE03F27D9E74F00A77E05 /* Single Number */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE04227D9E76200A77E05 /* main.swift */,
+			);
+			path = "Single Number";
+			sourceTree = "<group>";
+		};
+		EDCAE04327D9E7B000A77E05 /* Intersection of Two Arrays II */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE04727D9E7B800A77E05 /* main.swift */,
+			);
+			path = "Intersection of Two Arrays II";
+			sourceTree = "<group>";
+		};
+		EDCAE06027D9EAEC00A77E05 /* Plus One */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE06327D9EAFD00A77E05 /* main.swift */,
+			);
+			path = "Plus One";
+			sourceTree = "<group>";
+		};
+		EDCAE06427D9EB4D00A77E05 /* Move Zeroes */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE06927D9EB8700A77E05 /* main.swift */,
+			);
+			path = "Move Zeroes";
+			sourceTree = "<group>";
+		};
+		EDCAE06A27D9EB9C00A77E05 /* Two Sum */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAE06B27D9EB9C00A77E05 /* main.swift */,
+			);
+			name = "Two Sum";
+			path = "Leetcode/Array/Two Sum";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCAE02127D9E4D500A77E05 /* Leetcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCAE02927D9E4D500A77E05 /* Build configuration list for PBXNativeTarget "Leetcode" */;
+			buildPhases = (
+				EDCAE01E27D9E4D500A77E05 /* Sources */,
+				EDCAE01F27D9E4D500A77E05 /* Frameworks */,
+				EDCAE02027D9E4D500A77E05 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leetcode;
+			productName = Leetcode;
+			productReference = EDCAE02227D9E4D500A77E05 /* Leetcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCAE01A27D9E4D500A77E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EDCAE02127D9E4D500A77E05 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDCAE01D27D9E4D500A77E05 /* Build configuration list for PBXProject "Leetcode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCAE01927D9E4D500A77E05;
+			productRefGroup = EDCAE02327D9E4D500A77E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCAE02127D9E4D500A77E05 /* Leetcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCAE01E27D9E4D500A77E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCAE06C27D9EB9C00A77E05 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDCAE02727D9E4D500A77E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCAE02827D9E4D500A77E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDCAE02A27D9E4D500A77E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XMR9BP7C96;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDCAE02B27D9E4D500A77E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XMR9BP7C96;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCAE01D27D9E4D500A77E05 /* Build configuration list for PBXProject "Leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCAE02727D9E4D500A77E05 /* Debug */,
+				EDCAE02827D9E4D500A77E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCAE02927D9E4D500A77E05 /* Build configuration list for PBXNativeTarget "Leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCAE02A27D9E4D500A77E05 /* Debug */,
+				EDCAE02B27D9E4D500A77E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCAE01A27D9E4D500A77E05 /* Project object */;
+}

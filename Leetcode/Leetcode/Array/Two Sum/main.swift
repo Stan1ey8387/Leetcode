@@ -2,6 +2,18 @@ import Foundation
 
 fileprivate class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var dictionary: [Int: Int] = [:]
+
+        for index in 0..<nums.count {
+            let num = nums[index]
+
+            if let value = dictionary[target - num] {
+                return [value, index]
+            }
+
+            dictionary[num] = index
+        }
+
         return []
     }
 }
